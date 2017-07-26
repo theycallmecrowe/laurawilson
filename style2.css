@@ -147,9 +147,8 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     position: relative;
     width: 100%;
     background-color: #fff;
-    height: 300px;
     margin: 0 auto;
-    padding: 7% 0 0 0%;
+    padding: 9% 0 12% 0%;
     clear: both;
     color: #000;
     text-align: center;
