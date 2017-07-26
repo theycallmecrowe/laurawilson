@@ -86,10 +86,9 @@ h2 {
     font-size: .7em;
     line-height: 1em;
     margin: 0;
-    padding: 2% 0 0 0;
+    padding: 2% 0 2% 0;
     text-align: center;
     font-weight: 700;
-    color: #1e2023;
     text-transform: uppercase;
     letter-spacing: 8px;
 }
@@ -108,17 +107,18 @@ h4 {
     line-height: 1em;
     margin: 0;
     padding: 3% 3% 0 0;
-    text-align: right;
+    text-align: center;
     font-weight: 500;
     color: darkgrey;
 }
 
 a {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0 auto;
-    color: #666;
+    color: darkgrey;
     text-decoration: none;
+    text-transform: uppercase;
     -webkit-transition: all 100ms ease-in-out;
     -moz-transition: all 100ms ease-in-out;
     -ms-transition: all 100ms ease-in-out;
@@ -127,8 +127,8 @@ a {
 }
 
 a:hover {
-    text-decoration: line-through;
-    color: #fff;
+    text-decoration: none;
+    color: #000;
 }
 
 img { -ms-interpolation-mode: bicubic; }
@@ -146,13 +146,23 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
 .footer {
     position: relative;
     width: 100%;
-    background-color: #000;
+    background-color: #fff;
     height: 300px;
     margin: 0 auto;
-    padding: 10% 0 0 15%;
+    padding: 7% 0 0 0%;
     clear: both;
-    color: #fff;
-    text-align: left;
+    color: #000;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+    text-align: center;
+}
+
+.footer a:hover {
+    color: darkgray;
+    text-align: center;
 }
 
 .intro {
@@ -189,6 +199,36 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
 }
 
 @media only screen and (max-width: 500px) {
+
+    h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-left: -3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+    h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    line-height: 1em;
+    margin: 0;
+    padding: 2% 0 2% 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+    
+    .intro {
+    position: relative;
+    padding: 150px 0 200px 0;
+    margin: 0 auto;
+    border-left: 0px #e8e8e8 solid;
+    color: #1e2023;
+    text-align: center;
+}
     
     .folio-list {
         width: 85%;
@@ -203,4 +243,16 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     .right {
         width: 100%;
     }
+    
+    .footer {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    height: 300px;
+    margin: 0 auto;
+    padding: 25% 0 0 0%;
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
 }
