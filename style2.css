@@ -1,0 +1,254 @@
+/* RESET
+------------------------------------------------------------------------------------------------ */
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, form, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, main, menu, nav, section, summary, time, mark, audio, video { background: transparent; font-size: 100%; vertical-align: baseline; border: 0; outline: 0; margin: 0; padding: 0; }
+
+html { background: #000; font-family: 'Work Sans', Arial, Helvetica, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+body { max-width: 100%; margin: 0 auto; padding: 0; }
+
+
+/* FADE-IN */  
+@keyframes fadein { from {opacity:0;} to {opacity:1;}}
+@-moz-keyframes fadein { /* Firefox */ from {opacity:0;} to {opacity:1;}}
+@-webkit-keyframes fadein { /* Safari and Chrome */ from {opacity:0;} to {opacity:1;}}
+@-o-keyframes fadein { /* Opera */ from {opacity:0;} to {opacity: 1;}}
+.fadeload {
+	-webkit-animation: fadein 1200ms forwards; 
+	-webkit-animation-name: fadein 1200ms forwards; 
+	-webkit-animation-duration: 1200ms forwards; 	
+}
+
+/* SLIDE-UP */ 
+@-webkit-keyframes upload { from {-webkit-transform:translate(0px, 40px)} to {-webkit-transform:translate(0px, 0px)}}
+@-moz-keyframes upload { from {-moz-transform:translate(0px, 40px)} to {-moz-transform:translate(0px, 0px)}}
+@-ms-keyframes upload { from {-ms-transform:translate(0px, 40px)} to {-ms-transform:translate(0px, 0px)}}
+@-o-keyframes upload { from {-o-transform:translate(0px, 40px)} to {-o-transform:translate(0px, 0px)}}
+@keyframes upload { from {transform:translate(0px, 40px)} to {transform:translate(0px, 0px)}}
+.upload {
+	-webkit-animation: fadein, upload 500ms; 
+	-webkit-animation-name: fadein, upload 500ms; 
+	-webkit-animation-duration: 500ms;
+}
+
+/* MEDIA
+------------------------------------------------------------------------------------------------ */
+
+h1 {
+    font-family: 'Gabriela', serif;
+    font-size: 2.7em;
+    line-height: 1.35em;
+    margin-left: -3px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .8em;
+    line-height: 1em;
+    margin: 0;
+    padding: 10% 0 0 0;
+    text-align: center;
+    font-weight: 500;
+    color: darkgrey;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .85em;
+    letter-spacing: .005em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 500;
+}
+
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto;
+    color: #666;
+    text-decoration: none;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: #fff;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.pink {
+    color: deeppink;
+}
+
+.darkred {
+    color: darkred;
+}
+
+.lightblue {
+    color: skyblue;
+}
+
+.darkblue {
+    color: darkblue;
+}
+img { -ms-interpolation-mode: bicubic; }
+img, object, embed { display: block; vertical-align: middle; max-width: 100%; width: auto; width: auto\9; /* IE Fix */ height: auto; border: 0; }
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-bottom: 0px #e8e8e8 solid;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.sixty-five {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+}
+.intro {
+    position: relative;
+    padding: 22% 0 22% 0;
+    margin: 0 auto;
+    border-left: 0px #e8e8e8 solid;
+    color: #1e2023;
+    text-align: center;
+}
+
+.white-border {
+    height: 8px;
+    width: 20%;
+    background-color: #fff;
+    margin: 120px 0 15px 0;
+}
+
+.online {
+    width: 100%;
+    background-color: #ffb4bb;
+    padding: 100px 0 100px 0;
+}
+
+.black-border {
+    height: 8px;
+    width: 20%;
+    background-color: #434343;
+    margin: 0px 0 15px 0;
+}
+
+.work {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #111111;
+    margin: 0 auto;
+    padding: 0 0 0px 0;
+}
+
+.folio-list {
+    color: #fff;
+    width: 100%;
+    min-height: auto;
+    margin: 0 auto;
+    padding: 100px 7.5% 80px 7.5%;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to top, #ffffff 50%, transparent 50%);
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.folio-list:hover {
+    color: #000;
+    margin: 0 auto; 
+    padding: 100px 7.5% 80px 8.5%;
+    background-image: linear-gradient(to top, #ffffff 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.item {
+    margin: 50px auto 50px auto;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.work-pages {
+    position: relative;
+    width: 85%;
+    padding: 0;
+    margin: 4% auto;
+    border-left: 0px #797979 solid;
+    color: #fff;
+    box-shadow: 15px 80px 125px #5f5f5f;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.25em;
+        line-height: 1.35em;
+        margin-left: -3px;
+    }
+    
+    h2 {
+        font-size: 2.75em;
+        line-height: 1em;
+        margin: 0;
+    }
+    
+    h3 {
+        font-size: 1em;
+        margin: 0;
+    }
+    
+    .folio-list {
+        width: 85%;
+        margin: 0 auto;
+        padding: 20px 0 150px 0;
+    }
+    .left {
+        display: block;
+        width: 100%;
+    }
+    
+    .right {
+        width: 100%;
+    }
+}
