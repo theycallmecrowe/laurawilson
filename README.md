@@ -1,1 +1,2 @@
-# laurawilson
+Laura Wilson
+DESIGNER | ART DIRECTOR | KITTY MAMA
