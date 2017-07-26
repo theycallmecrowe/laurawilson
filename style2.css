@@ -198,27 +198,6 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
 }
 
 @media only screen and (max-width: 500px) {
-
-    h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
-    line-height: 1.25em;
-    margin-left: -3px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
-    h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: .7em;
-    line-height: 1em;
-    margin: 0;
-    padding: 2% 0 2% 0;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
     
     .intro {
     position: relative;
@@ -253,5 +232,25 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     clear: both;
     color: #fff;
     text-align: center;
+}
+        h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-left: -3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+    h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    line-height: 1em;
+    margin: 0;
+    padding: 2% 0 2% 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 }
