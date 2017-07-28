@@ -106,17 +106,19 @@ h4 {
     font-size: .7em;
     line-height: 1em;
     margin: 0;
-    padding: 3% 3% 0 0;
+    padding: 60px 10px 0 0;
     text-align: center;
     font-weight: 500;
     color: darkgrey;
 }
 
 a {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75em;
+    font-weight: 700;
+    letter-spacing: 3px;
     margin: 0 auto;
-    color: darkgrey;
+    color: #a8a8a8;
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: all 100ms ease-in-out;
@@ -129,6 +131,10 @@ a {
 a:hover {
     text-decoration: none;
     color: #000;
+}
+
+.navpad {
+    padding: 0 30px 0 30px;
 }
 
 img { -ms-interpolation-mode: bicubic; }
@@ -166,7 +172,7 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
 
 .intro {
     position: relative;
-    padding: 16% 0 18% 0;
+    padding: 15% 0 18% 0;
     margin: 0 auto;
     border-left: 0px #e8e8e8 solid;
     color: #1e2023;
