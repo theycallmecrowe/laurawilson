@@ -238,24 +238,30 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     color: #000;
     text-align: center;
 }
-        h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
-    line-height: 1.25em;
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5.5em;
+    line-height: .85em;
     margin-left: -3px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
     h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: .7em;
     line-height: 1em;
     margin: 0;
-    padding: 2% 0 2% 0;
+    padding: 4% 0 2% 0;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+    h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 8px;
+    margin: 0;
+    font-weight: 700;
 }
 }
