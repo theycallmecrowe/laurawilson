@@ -72,13 +72,12 @@ body { max-width: 100%; margin: 0 auto; padding: 0; }
 ------------------------------------------------------------------------------------------------ */
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.65em;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5.5em;
     line-height: 1.25em;
     margin-left: -3px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 9px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 h2 {
@@ -95,10 +94,10 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: .9em;
-    letter-spacing: .005em;
+    font-size: 3.5em;
+    letter-spacing: 12px;
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 h4 {
@@ -156,12 +155,12 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     margin: 0 auto;
     padding: 9% 0 12% 0%;
     clear: both;
-    color: #000;
+    color: #404041;
     text-align: center;
 }
 
 .footer a {
-    color: #000;
+    color: #404041;
     text-align: center;
 }
 
@@ -175,7 +174,7 @@ img, object, embed { display: block; vertical-align: middle; max-width: 100%; wi
     padding: 15% 0 18% 0;
     margin: 0 auto;
     border-left: 0px #e8e8e8 solid;
-    color: #1e2023;
+    color: #404041;
     text-align: center;
 }
 
